@@ -258,11 +258,11 @@
 }
 
 .person {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  position: relative;
 }
 
 .person_name_feynman {
@@ -316,7 +316,7 @@
   font-size: 14px;
   margin: 0;
 }
-.person_caption_position {
+.person__caption_position {
   position: relative;
   top: 160px;
 }
